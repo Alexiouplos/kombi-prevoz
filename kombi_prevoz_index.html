@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kombi Prevoz Dragašević | Profesionalni i Siguran Transport Putnika</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome za ikone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGACIJA -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <i class="fa-solid fa-bus"></i> Dragašević<span>Prevoz</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#pocetna" class="nav-link">Početna</a></li>
+                <li><a href="#o-nama" class="nav-link">O nama</a></li>
+                <li><a href="#usluge" class="nav-link">Usluge</a></li>
+                <li><a href="#vozila" class="nav-link">Naša vozila</a></li>
+                <li><a href="#zasto-mi" class="nav-link">Zašto mi</a></li>
+                <li><a href="#ai-planer" class="nav-link">✨ AI Planer</a></li>
+                <li><a href="#kontakt" class="nav-link nav-btn-alt">Pošalji Upit</a></li>
+            </ul>
+            <div class="nav-hamburger" id="navToggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SEKCIJA -->
+    <header id="pocetna" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge"><i class="fa-solid fa-clock"></i> Dostupni 24/7 širom Srbije i po dogovoru</div>
+                <h1>Kombi prevoz 24/7 širom Srbije</h1>
+                <p>Profesionalan i pouzdan vanlinijski transport putnika sa tradicijom dugom preko 20 godina. Vaša sigurnost i udobnost su naš najveći prioritet.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="openContactModal">
+                        <i class="fa-solid fa-phone"></i> Kontakt podaci
+                    </button>
+                    <a href="#kontakt" class="btn btn-secondary">
+                        <i class="fa-solid fa-envelope"></i> Pošalji upit
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- O NAMA SEKCIJA -->
+    <section id="o-nama" class="section o-nama-section scroll-reveal">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-subtitle">Naša Priča</span>
+                    <h2>Preko 20 godina iskustva na drumu</h2>
+                    <p>Firma <strong>Dragašević Prevoz</strong> pruža vrhunske usluge vanlinijskog kombi prevoza putnika. Naš cilj je jednostavan: obezbediti bezbedno, brzo i maksimalno udobno putovanje za svaku grupu naših klijenata.</p>
+                    <p>Bilo da planirate kraći međugradski transfer, prevoz zaposlenih na poslovne događaje ili duža turistička putovanja, naša posvećenost detaljima i profesionalizam garantuju da ćete na Vašu destinaciju stići odmorni i na vreme.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>20+</h3>
+                            <p>Godina tradicije</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Zadovoljnih putnika</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=800" alt="[Usluga profesionalnog prevoza putnika]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NAŠE USLUGE SEKCIJA -->
+    <section id="usluge" class="section usluge-section scroll-reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Šta Radimo</span>
+                <h2>Naše profesionalne usluge</h2>
+                <p>Pružamo širok spektar usluga prilagođenih Vašim specifičnim transportnim potrebama.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Kartica 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3>Prevoz putnika</h3>
+                    <p>Idealan izbor za prevoz turističkih grupa, sportskih ekipa, proslava ili poslovnih timova do bilo koje lokacije.</p>
+                </div>
+                <!-- Kartica 2 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-plane-departure"></i></div>
+                    <h3>Aerodrom transferi</h3>
+                    <p>Direktni transferi od Vaših vrata do aerodroma "Nikola Tesla" u Beogradu i ostalih regionalnih aerodroma.</p>
+                </div>
+                <!-- Kartica 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-route"></i></div>
+                    <h3>Međugradski prevoz</h3>
+                    <p>Udobne i pouzdane vožnje između svih gradova u Srbiji po fleksibilnom rasporedu koji Vama najviše odgovara.</p>
+                </div>
+                <!-- Kartica 4 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>Hitni prevoz 24/7</h3>
+                    <p>Dostupni smo u bilo koje doba dana i noći za vanredne i hitne polaske kada je vreme od presudnog značaja.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NAŠA VOZILA SEKCIJA -->
+    <section id="vozila" class="section vozila-section scroll-reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Vozni Park</span>
+                <h2>Naša vozila</h2>
+                <p>Upoznajte vozilo koje garantuje Vašu sigurnost i visoku udobnost na svakom kilometru.</p>
+            </div>
+            <div class="vehicle-showcase">
+                <div class="vehicle-image">
+                    <!-- Realističan placeholder belog putničkog kombija (Renault Master stil) -->
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/5629410936058843907_0" alt="[Beli Renault Master putnički kombi]">
+                </div>
+                <div class="vehicle-info">
+                    <div class="vehicle-badge">Kapacitet: 16 Mesta</div>
+                    <h3>Renault Master (2008)</h3>
+                    <p>Naš Renault Master predstavlja savršen spoj prostranosti i tehničke pouzdanosti. Vozilo je redovno servisirano, čisto i opremljeno dvo-zonskim klima uređajem koji obezbeđuje optimalnu temperaturu tokom svih godišnjih doba.</p>
+                    <ul class="vehicle-features">
+                        <li><i class="fa-solid fa-circle-check"></i> Klimatizovan putnički prostor</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Anatomski oblikovana sedišta sa sigurnosnim pojasevima</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Veliki prtljažni prostor za sve Vaše kofere</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Dodatna zvučna izolacija za tihu i opuštajuću vožnju</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ZAŠTO MI SEKCIJA -->
+    <section id="zasto-mi" class="section zasto-mi-section scroll-reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Zaslužujete najbolje</span>
+                <h2>Zašto izabrati nas?</h2>
+                <p>Fokusirani smo na profesionalni standard usluge koji pruža bezbrižno putovanje.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h4>24/7 Dostupnost</h4>
+                    <p>Na raspolaganju smo Vam u bilo koje doba dana ili noći, tokom čitave godine.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h4>Maksimalna sigurnost</h4>
+                    <p>Strogo održavanje vozila, redovni tehnički pregledi i iskusni profesionalni vozači.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-circle-check"></i></div>
+                    <h4>Apsolutna tačnost</h4>
+                    <p>Poštovanje dogovorenih rokova i dolazak na adresu u tačno zakazano vreme.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-couch"></i></div>
+                    <h4>Izuzetna udobnost</h4>
+                    <p>Prostrano vozilo sa dovoljno mesta za noge i prtljag obezbeđuje komfor tokom celog puta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ✨ AI PAMETNI PLANER PUTOVANJA SEKCIJA -->
+    <section id="ai-planer" class="section ai-planner-section scroll-reveal">
+        <div class="container">
+            <div class="ai-box">
+                <div class="ai-header">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h2>✨ AI Pametni Planer Rute</h2>
+                </div>
+                <div class="ai-grid">
+                    <div class="ai-input-column">
+                        <p class="ai-intro-text">Opišite Vašu željenu rutu običnim rečima. Naš AI planer koji pokreće <strong>Gemini 2.5</strong> asistent će analizirati Vaš plan, proceniti vreme vožnje za kombi od 16 mesta i predložiti optimalna mesta za pauzu.</p>
+                        <div class="form-group">
+                            <textarea id="aiPrompt" placeholder="Npr: Planiramo jednodnevni izlet za 14 ljudi od Beograda do Niša u subotu ujutru. Voleli bismo usputnu pauzu blizu Jagodine za kafu, a povratak planiramo oko 20h uveče..."></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-full" id="btnGenerateAI">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i> Generiši Plan Rute
+                        </button>
+                    </div>
+                    <div class="ai-result-column">
+                        <!-- Rezultat pretrage -->
+                        <div id="aiResult" class="ai-result-content" style="display: none;">
+                            <div class="ai-meta-group">
+                                <div class="ai-meta-card">
+                                    <span>Udaljenost</span>
+                                    <strong id="aiDistance">-- km</strong>
+                                </div>
+                                <div class="ai-meta-card">
+                                    <span>Vreme vožnje</span>
+                                    <strong id="aiDuration">-- h</strong>
+                                </div>
+                            </div>
+                            <div class="ai-itinerary">
+                                <h4>Predloženi Plan &amp; Pauze:</h4>
+                                <div id="aiItineraryText">Plan rute...</div>
+                            </div>
+                            <div class="ai-tip-box">
+                                <i class="fa-solid fa-lightbulb"></i> <span id="aiTip">Savet...</span>
+                            </div>
+                            <button type="button" class="btn btn-secondary btn-full" id="btnApplyAI">
+                                <i class="fa-solid fa-circle-check"></i> Primeni podatke na formu ispod
+                            </button>
+                        </div>
+                        <!-- Početni placeholder -->
+                        <div id="aiPlaceholder" class="ai-placeholder">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                            <p>Unesite plan puta levo i pokrenite AI analizu za izračunavanje rute u sekundi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAKT SEKCIJA -->
+    <section id="kontakt" class="section kontakt-section scroll-reveal">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-subtitle">Kontakt</span>
+                    <h2>Krenimo na put zajedno</h2>
+                    <p>Kontaktirajte nas putem telefona ili popunite formu, a mi ćemo Vam se javiti u najkraćem roku sa neobavezujućom ponudom.</p>
+                    
+                    <div class="contact-info-list">
+                        <div class="contact-info-item">
+                            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="info-details">
+                                <span>Pozovite nas / Viber</span>
+                                <a href="tel:+381658070926">065/807-0926</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="info-details">
+                                <span>Email Adresa</span>
+                                <a href="mailto:vladimirdragasevic@gmail.com">vladimirdragasevic@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="info-details">
+                                <span>Polazište</span>
+                                <p>Srbija i po dogovoru</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="formIme">Ime i Prezime</label>
+                                <input type="text" id="formIme" required placeholder="Vaše ime">
+                            </div>
+                            <div class="form-group">
+                                <label for="formTelefon">Broj telefona</label>
+                                <input type="tel" id="formTelefon" required placeholder="06X XXX XXX">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="formPolazak">Mesto polaska</label>
+                                <input type="text" id="formPolazak" required placeholder="Npr. Beograd">
+                            </div>
+                            <div class="form-group">
+                                <label for="formDolazak">Mesto dolaska</label>
+                                <input type="text" id="formDolazak" required placeholder="Npr. Niš">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="formPoruka">Napomena (Broj putnika, datum i plan puta)</label>
+                            <textarea id="formPoruka" rows="4" required placeholder="Unesite detalje o planu putovanja..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="btnFormSubmit">Pošalji Upit</button>
+                    </form>
+                    <div id="formSuccessMessage" class="form-success-alert">
+                        <i class="fa-solid fa-circle-check"></i> Hvala Vam! Vaš upit je uspešno poslat. Javićemo Vam se u najkraćem roku.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Dragašević Prevoz. Sva prava zadržana.</p>
+                <p>Vladimirdragasevic@gmail.com | 0658070926</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODALNI PROZOR ZA KONTAKT (KARTICA) -->
+    <div class="modal" id="contactModal">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3>Kontakt podaci</h3>
+                <span class="modal-close" id="closeContactModal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <span>Email:</span>
+                        <a href="mailto:vladimirdragasevic@gmail.com">vladimirdragasevic@gmail.com</a>
+                    </div>
+                </div>
+                <div class="modal-contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <span>Telefon:</span>
+                        <a href="tel:+381658070926">065/807-0926</a>
+                    </div>
+                </div>
+                <p class="modal-note"><i class="fa-solid fa-circle-info"></i> Možete nas kontaktirati direktno putem poziva, Vibera ili slanjem upita preko forme na sajtu.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
